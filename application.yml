@@ -3,6 +3,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://BLACKHOME:8761/eureka/
+      defaultZone: http://kubernetes.docker.internal:8761/eureka/
   instance:
-    hostname: BLACKHOME
+    hostname: kubernetes.docker.internal
